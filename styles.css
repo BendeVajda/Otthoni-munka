@@ -1,3 +1,6 @@
+body {
+    background-color: whitesmoke;
+}
 .főcím {
     text-align: center;
     background-color: gold;
@@ -6,20 +9,20 @@
 }
 .Ronaldo_élete {
     font-size: 35px;
-    background-color: beige;
+    background-color: lightblue;
 }
 .élete {
-    background-color: beige;
+    background-color: lightblue;
     font-size: 25px;
     text-align: justify;
     margin-bottom: 55px;
 }
 .Ronaldo_football_karrierje {
-    background-color: beige;;
+    background-color: lightblue;;
     font-size: 30px
 }
 .karrierje {
-    background-color: beige;
+    background-color: lightblue;
     font-size: 25px;
     text-align: justify;
 }
@@ -35,4 +38,62 @@
 }
 .csapatjai {
     font-size: 20px;
+}
+.csapatjai td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.cím_csapatjai {
+    background-color: black;
+    color: white;
+}
+.tablazatok {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 40px 20px;
+}
+.dijak {
+    width: 50%;
+    padding: 15px;
+    border: 2px solid black;
+}
+.csapatok {
+    width: 50%;
+    padding: 15px;
+    border: 2px solid black;
+}
+.dijak h2,
+.csapatok h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.dijak table,
+.csapatok table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.dijak td,
+.csapatok td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+.Sporting {
+    background-color: lightgreen;
+}
+.United {
+    background-color: orange;
+}
+.Válogatott {
+    background-color: green;
+}
+.Juventus {
+    background-color: gray;
+}
+.Al-Nassr {
+    background-color: yellow;
 }
